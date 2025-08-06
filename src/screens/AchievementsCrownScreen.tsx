@@ -152,9 +152,9 @@ const AppcheckStories = () => {
                     </View>
                 )}
                 <Text style={styles.cardTitle}>{item.title}</Text>
-                <TouchableOpacity style={styles.infoIcon}>
-                    <Text style={{ color: 'white', fontWeight: 'bold' }}>i</Text>
-                </TouchableOpacity>
+                {/*<TouchableOpacity style={styles.infoIcon}>*/}
+                {/*    <Text style={{ color: 'white', fontWeight: 'bold' }}>i</Text>*/}
+                {/*</TouchableOpacity>*/}
             </TouchableOpacity>
         );
     };
